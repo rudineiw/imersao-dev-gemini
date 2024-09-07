@@ -5,23 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Guia de Produtos e Serviços</title>
+    <title>Guia de Bike</title>
 </head>
 
 <body>
     <header>
-        <h1>Guia de Produtos e Serviços</h1>
+        <h1>Guia de Bike</h1>
     </header>
     <main>
         <section>
-            <input type="text" placeholder="Digite o nome do produto ou serviço">
-            <button>Pesquisar</button>
+            <input type="text" placeholder="Buscar evento de ciclismo" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+            
         </section>
     </main>
     <footer>
-        <p>2024 - Guia de Produtos e Serviços.</p>
+        <p>2024 - Guia de Bike.</p>
         <p>Todos os direitos reservados.</p>
     </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>

@@ -4,6 +4,7 @@
 /* Estiliza o corpo da página */
 body {
     font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
+    background-color: #fce5ca; /* Cor de fundo da página */
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
@@ -11,18 +12,12 @@ body {
     height: 100vh; /* Preenche a altura total da viewport */
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
-    background-image: url('images/bg.jpg');
-    background-color: rgba(0, 0, 0, 0.85); /* Preto com 50% de opacidade */
-    background-blend-mode: multiply; /* Multiplica a cor de fundo com a imagem */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 /* Estiliza os títulos h1 */
 h1 {
     font-size: 2.5rem; /* Tamanho da fonte */
-    color: #ffefc3; /* Cor do texto */
+    color: #1b4555; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
 }
@@ -42,8 +37,7 @@ section input {
     padding: 1rem; /* Espaçamento interno */
     border-radius: 1.5rem; /* Borda arredondada */
     margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
-    color: #ffefc3; /* Cor do texto */
-    background-color: rgba(0, 0, 0, 0.5); /* Preto com 50% de opacidade
+    color: #1b4555; /* Cor do texto */
     font-size: 1rem; /* Tamanho da fonte */
     box-sizing: border-box; /* Inclui padding e border na largura total */
 }
@@ -53,7 +47,7 @@ section button {
     padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
     border: none; /* Remove a borda padrão */
     border-radius: 1.5rem; /* Borda arredondada */
-    background-color: #ce8922; /* Cor de fundo do botão */
+    background-color: #30475E; /* Cor de fundo do botão */
     color: #F5F7F8; /* Cor do texto do botão */
     font-size: 1rem; /* Tamanho da fonte */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
@@ -61,7 +55,7 @@ section button {
 
 /* Adiciona efeito hover ao botão de pesquisa */
 section button:hover {
-    background-color: #85550d; /* Muda a cor de fundo ao passar o mouse */
+    background-color: #30475E; /* Muda a cor de fundo ao passar o mouse */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
 }
 
@@ -87,7 +81,7 @@ section button:hover {
 /* Estiliza os títulos dentro dos itens de resultado */
 .item-resultado h2 {
     font-size: 1.5rem; /* Tamanho da fonte */
-    color: #222831; /* Cor do texto */
+    color: #1b4555; /* Cor do texto */
 }
 
 /* Estiliza os links dentro dos itens de resultado */
@@ -109,15 +103,14 @@ section button:hover {
 
 /* Estiliza o rodapé da página */
 footer {
-    color: #f4f4f4; /* Cor do texto */
+    background-color: #F5F7F8; /* Cor de fundo do rodapé */
+    color: #45474B; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
     position: absolute; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
-    font-size: 1rem; /* Tamanho da fonte */
-    background-color: rgba(0, 0, 0, 0.2); /* Fundo branco com 10% de opacidade */
-    backdrop-filter: blur(5px); /* Desfoque de 10 pixels */
+    font-size: 0.75rem; /* Tamanho da fonte */
 }
 
 @media (max-width: 768px) {
